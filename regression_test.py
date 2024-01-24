@@ -95,8 +95,8 @@ def test_fit_and_predict_regression_model_2d():
     assert y_pred.shape == (3, 1), " y_pred shape is not correct"
 
 
-#if __name__ == "__main__":
-#   test_fit_regression_model_1d()
-#    test_fit_regression_model_2d()
-#    test_fit_and_predict_regression_model_1d()
-#   test_fit_and_predict_regression_model_2d()
+if __name__ == "__main__":
+  test_fit_regression_model_1d()
+  test_fit_regression_model_2d()
+  test_fit_and_predict_regression_model_1d()
+  test_fit_and_predict_regression_model_2d()
